@@ -910,6 +910,11 @@ header {
         margin-right: 30px;
         background-repeat: no-repeat;
     }
+
+    #cntnr-resize>div {
+        height: max-content;
+        padding: 80px 10px 20px 10px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -954,5 +959,67 @@ header {
         flex-direction: column;
         width: 100vw !important;
         overflow: hidden;
+    }
+
+    #foo-main {
+        flex-direction: column;
+    }
+
+    #divide {
+        display: none;
+        text-align: center;
+    }
+
+    #foo-details {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #notification {
+        width: 90vw !important;
+    }
+
+    #banner>div:first-child {
+        margin: 70px 10px 10px 150px !important;
+    }
+
+    #banner>div:first-child {
+        width: 90vw;
+    }
+
+    #abt-details {
+        width: 90vw;
+    }
+
+    #banner-img {
+        margin-left: -20px !important;
+    }
+
+    #banner {
+        width: 100vw;
+
+        align-content: center;
+    }
+
+    #banner-text {
+        margin: 10px !important;
+        width: auto;
+        height: auto;
+    }
+
+    #pre-typed-data {
+        width: 90vw !important;
+        height: max-content;
+    }
+
+    #exp-arrow {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #banner>div:first-child {
+        margin: 70px 10px 10px 180px !important;
     }
 }
